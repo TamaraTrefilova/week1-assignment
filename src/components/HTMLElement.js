@@ -1,17 +1,17 @@
 
-
-// import React, {Component} from 'react'
 // Define class here
 class HTMLElement {
 
+tag;
+content;
     constructor (tag, content){
       this.tag = tag;
       this.content = content;
     }
 
     render(){
-        return `<${tag}> ${content} </${tag}`;
+        return `<${this.tag}>${this.content}</${this.tag}>`;
     }
 }
 // Export class here
-export default  class HTMLElement {};
+export default  HTMLElement;
