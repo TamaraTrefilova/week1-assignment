@@ -2,7 +2,7 @@
   "name": "week1",
   "version": "1.0.0",
   "description": "Week 1 Assignment",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "lint": "eslint ./src",
     "test:watch": "jest --watch",
